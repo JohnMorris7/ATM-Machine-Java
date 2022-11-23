@@ -232,4 +232,8 @@ public class Account {
 			}
 		}
 	}
+	public void printCheckingAndSavingsBalances(){
+		System.out.println("\nCurrent Checkings Account Balance: " + moneyFormat.format(checkingBalance));
+		System.out.println("\nCurrent Savings Account Balance: " + moneyFormat.format(savingBalance));
+	}
 }
